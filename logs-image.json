@@ -1,0 +1,51 @@
+[
+    {
+        "Id": "sha256:df2c1ca76d85b55682747e0758ec14a2c94ac3dad7efe8f35a36d04ce752481b",
+        "RepoTags": [
+            "conversao-temperatura:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:bf16bdcff9c96b76a6d417bd8f0a3abe0e55c0ed9bdb3549e906834e2592fd5f",
+        "Comment": "",
+        "Created": "2025-06-16T22:46:58.834078027Z",
+        "DockerVersion": "28.2.2",
+        "Author": "",
+        "Config": {
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 389475106,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/19df08f10777f16fe9ae6c7840481d6fea5d54b0432c77139d27240a7cbd6ddf/diff",
+                "MergedDir": "/var/lib/docker/overlay2/d5ff770453b8c225506dcc12755fd44af9cee63e2a00851798c950cc4bf5236b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/d5ff770453b8c225506dcc12755fd44af9cee63e2a00851798c950cc4bf5236b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/d5ff770453b8c225506dcc12755fd44af9cee63e2a00851798c950cc4bf5236b/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:a8346d259389bc6221b4f3c61bad4e48087c5b82308e8f53ce703cfc8333c7b3",
+                "sha256:2fa69d3214a5516160b796640b3036c409cdc548c546e36b940bb303b6db0e8e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2025-06-16T19:46:59.558831238-03:00"
+        }
+    }
+]
